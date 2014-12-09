@@ -7,7 +7,7 @@ package jeuxdedame;
 
 /**
  *
- * @author Jiksaa
+ * @author BERGIERS
  */
 public class Jeuxdedame {
 

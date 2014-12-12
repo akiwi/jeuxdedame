@@ -9,7 +9,7 @@ package jeuxdedame.controleur;
  *
  * @author Damien Thiry
  */
-public class Plateau extentds JPanel{
+public class Plateau extentds JPanel {
     final static public int NB_CASEX = 10;
     final static public int NB_CASEY = 10;
     static private Plateau plateau = new Plateau();
@@ -19,7 +19,7 @@ public class Plateau extentds JPanel{
 
 private Plateau(){
     int x, y;
-    for(x=0; x=NB_CASESX; x++){
+    for(x=0; x<NB_CASEX; x++){
         case[x][y] = Case.White;
         for(y=1; y=NB_CASEY; y++){
             Case[x][y] = Case.noir;

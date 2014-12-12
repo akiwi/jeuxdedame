@@ -40,6 +40,14 @@ public class Plateau extends JPanel {
 		add(case1);
 		
 	}
+        
+        
+        
+        private void initialiser(){
+            for(int j=0; j<TAILLE*3; j+=2){
+                
+            }
+        }
 	
 	
 

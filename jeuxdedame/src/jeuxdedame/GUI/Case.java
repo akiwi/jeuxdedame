@@ -14,7 +14,7 @@ public class Case extends JPanel{
 	/*D�finit la couleur d'une case (Noir ou Blanc)*/
 	private Couleur couleur;
 	
-	/*Variable logique d�finissant une case s�lectionn�e*/
+	/*Variable logique definissant une case selectionn�e*/
 	private boolean selection;
 	
 	/*Constructeur d'une case*/
@@ -26,7 +26,7 @@ public class Case extends JPanel{
 		
 	}
 	
-	/*Methode permettant de mettre la variable selection � l'�tat vrai*/
+	/*Methode permettant de mettre la variable selection a l'etat vrai*/
 	public boolean estSelectionnee(){
 		return selection;
 	}
@@ -45,6 +45,11 @@ public class Case extends JPanel{
 		}
 		
 	}
+        
+        
+        
+        
+        
 	
 }
 		

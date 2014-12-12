@@ -11,6 +11,7 @@ public class Partie {
     private Joueur joueurCourant;
     private boolean partieFinie;
     
+    
 
     public int getNbPartie() {
         return nbPartie;
@@ -44,6 +45,13 @@ public class Partie {
         this.partieFinie = partieFinie;
     }
 
-    
+    public Joueur getGagnant(){
+        Joueur gagnant = false;
+        if(this.PartieFinie()){
+            joueurCourant.getNbPiece()==0;
+            gagnant == joueurCourant;
+        }
+        return gagnant;
+    }
     
 }

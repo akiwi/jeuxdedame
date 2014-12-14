@@ -15,7 +15,7 @@ public class Init {
 		f.setSize(1000, 1000);
 		f.setLocationRelativeTo(null);
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.add(new Plateau(9));
+		f.add(new Plateau());
 		f.setVisible(true);
 
 	}

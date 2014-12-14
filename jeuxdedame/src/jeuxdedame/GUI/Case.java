@@ -9,15 +9,17 @@ import javax.swing.JPanel;
 public class Case extends JPanel{
 	
 	
-	private static final long serialVersionUID = 1L;
-
-	/*D�finit la couleur d'une case (Noir ou Blanc)*/
+	
+        private int coordonnee;
+	/*Définit la couleur d'une case (Noir ou Blanc)*/
 	private Couleur couleur;
 	
-	/*Variable logique definissant une case selectionn�e*/
+	/*Variable logique definissant une case selectionnée*/
 	private boolean selection;
 	
-	/*Constructeur d'une case*/
+	/*Constructeur d'une case
+        *@param Couleur
+        */
 	public Case(Couleur couleur){
 		this.couleur = couleur;
 		setLayout(new GridLayout(1,0));
@@ -25,12 +27,16 @@ public class Case extends JPanel{
 		
 		
 	}
+        
+        public Couleur getCouleur(){
+            return couleur;
+        }
 	
 	/*Methode permettant de mettre la variable selection a l'etat vrai*/
 	public boolean estSelectionnee(){
 		return selection;
 	}
-	
+	/*Initialisation des couleurs des cases*/
 	private void initialisationCouleur(){
 		switch(couleur){
 		case BLANC : 
@@ -49,13 +55,12 @@ public class Case extends JPanel{
         
         
         
-        
 	
+
 }
 		
 	
 		
-	
 	
 	
 	
